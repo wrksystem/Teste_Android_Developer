@@ -1,6 +1,6 @@
 package com.example.teste_ws_work.models
 
-data class DataCarListItem(
+data class Car(
     val ano: Int,
     val combustivel: String,
     val cor: String,

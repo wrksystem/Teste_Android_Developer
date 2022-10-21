@@ -1,19 +1,5 @@
 
-@
-app/build.gradle,f\4\f4a01d6a4fcb971362ec00a83903fd3902f52164
-q
-Aapp/src/main/java/com/example/teste_ws_work/models/DataCarList.kt,b\9\b93a2f99e910f5e5b317272bffeb4e811402a307
-u
-Eapp/src/main/java/com/example/teste_ws_work/models/DataCarListItem.kt,0\4\0492d740f9e105be3fcfab85c96d109a6a880731
 p
 @app/src/main/java/com/example/teste_ws_work/view/FormRegister.kt,6\6\663b074c6a75e2b3201ad91a40adeabda3ab8d7b
-P
- app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
-k
-;app/src/main/java/com/example/teste_ws_work/view/CarList.kt,7\f\7f04e6ab63a0e062506616f0f61b00b89f4ff71e
 n
 >app/src/main/java/com/example/teste_ws_work/view/CarDetails.kt,0\b\0bb2a3f570c862e7c3deedc97a32c6c811cb1939
-p
-@app/src/main/java/com/example/teste_ws_work/view/MainActivity.kt,8\9\8922e12c5b41691bc2e1743cd2002c48d99df4fa
-€
-Papp/src/main/java/com/example/teste_ws_work/retrofit/RetrofitServiceInterface.kt,f\9\f9fb05ff0d38365f8f98d95452b979c1cabcd275

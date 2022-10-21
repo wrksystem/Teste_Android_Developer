@@ -1,18 +1,32 @@
 package com.example.teste_ws_work.retrofit
 
+import com.google.gson.Gson
+import com.google.gson.GsonBuilder
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
 class RetrofitInstance {
 
     companion object {
-        val BASE_URL = ""
+        private var retrofitService: RetrofitService? = null
 
-        fun getRetrofitInstance(): Retrofit.Builder {
-            return Retrofit.Builder()
-                .baseUrl(BASE_URL)
-                .addConverterFactory(GsonConverterFactory.create())
+        fun getInstance() : RetrofitService {
+            if (retrofitService == null) {
+                var gson: Gson = GsonBuilder()
+                    .setLenient()
+                    .create()
 
+                val retrofit = Retrofit.Builder()
+                    .baseUrl("https://wswork.com.br/")
+                    .addConverterFactory(GsonConverterFactory.create(gson))
+                    .build()
+                retrofitService = retrofit.create(RetrofitService::class.java)
+            }
+            return retrofitService!!
         }
+
     }
+
 }
+
+
