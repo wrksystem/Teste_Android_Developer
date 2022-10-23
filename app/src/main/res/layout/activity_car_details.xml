@@ -1,11 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:paddingHorizontal="12dp"
+    android:orientation="vertical"
     tools:context=".view.CarDetails">
 
+    <TextView
+        android:id="@+id/detailsOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Details Car"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/detailsTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Details Car"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/detailsTre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Details Car"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/detailsFor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Details Car"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/detailsFive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Details Car"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/detailsSix"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Details Car"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/detaisSeven"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Details Car"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="@color/black"/>
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

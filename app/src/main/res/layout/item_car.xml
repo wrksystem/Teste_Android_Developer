@@ -2,20 +2,33 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="wrap_content"
+    style="@style/ContainerComponentsItem"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
     <TextView
         android:id="@+id/tv_car_item"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Carro"
+        android:layout_margin="10dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/title_car"
+        android:textColor="@color/black"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bt_details"
+        style="@style/Buttom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Detalhes"
+        app:layout_constraintStart_toStartOf="@id/tv_car_item"
+        app:layout_constraintEnd_toEndOf="@id/tv_car_item"
+        app:layout_constraintTop_toBottomOf="@id/tv_car_item"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

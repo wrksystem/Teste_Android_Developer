@@ -26,6 +26,6 @@ class FormLogin : AppCompatActivity() {
                  val intent = Intent(this@FormLogin, FormRegister::class.java)
                  startActivity(intent)
              }
-         }
+    }
 
  }

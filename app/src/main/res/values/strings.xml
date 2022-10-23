@@ -3,4 +3,7 @@
     <string name="login">Login</string>
     <string name="text_register">Crie uma conta clicando aqui</string>
     <string name="title_register">Register</string>
+    <string name="title_car">Carro</string>
+    <string name="btn_itemDialog">Eu Quero</string>
+
 </resources>
