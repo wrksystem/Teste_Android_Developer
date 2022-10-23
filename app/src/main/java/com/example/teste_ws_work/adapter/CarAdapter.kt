@@ -6,7 +6,6 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.teste_ws_work.adapter.CarAdapter.CarViewHolder
 import com.example.teste_ws_work.databinding.ItemCarBinding
 import com.example.teste_ws_work.models.Car
-import com.example.teste_ws_work.viewmodel.CarListViewModel
 
 class CarAdapter() : RecyclerView.Adapter<CarViewHolder>() {
 
@@ -26,9 +25,7 @@ class CarAdapter() : RecyclerView.Adapter<CarViewHolder>() {
     override fun onBindViewHolder(holder: CarViewHolder, position: Int) {
         val car = cars[position]
         holder.binding(car)
-        /*holder.itemView.setOnClickListener{
-            itemClick.detailData(car)
-        }*/
+
     }
 
     override fun getItemCount(): Int {
@@ -39,8 +36,13 @@ class CarAdapter() : RecyclerView.Adapter<CarViewHolder>() {
         RecyclerView.ViewHolder(binding.root) {
 
         fun binding(car: Car) {
-            binding.tvCarItem.text = car.nome_modelo
-
+            binding.tvCarNome.text = car.nome_modelo
+            binding.tvCarMarca.text = car.marca_nome
+            binding.tvCarAno.text = car.ano.toString()
+            binding.tvCarCombustivel.text = car.combustivel
+            binding.tvCarCor.text = car.cor
+            binding.tvCarNumPortas.text = car.num_portas.toString()
+            binding.tvCarValorFipe.text = car.valor_fipe
         }
     }
 }

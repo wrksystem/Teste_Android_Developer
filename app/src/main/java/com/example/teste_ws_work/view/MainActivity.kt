@@ -42,10 +42,6 @@ class MainActivity : AppCompatActivity() {
         })
         viewModel.getCarList()
 
-
-
-
-
     }
 
 }
