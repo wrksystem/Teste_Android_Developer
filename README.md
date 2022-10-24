@@ -93,7 +93,7 @@ E isso impediu o GsonConvertFactory de interpretar e buildar o JSON de forma cor
 <div>
   Acreditei que conseguiria fazer o teste completo, mas demonstrou ser mais difícil do que imaginava. Tive dificuldade na utilização do retrofit e na resolução do problema da recepção do Json pelo retrofit, o que me fez perder muinto tempo.
   
-  Dos requisitos que foram solicitados consegui cumprir apenas 2, que era a captação das informações da API e a apresentação dos dados em uma listagem. Infelizmente não consegui fazer o resto dos requisitos devido a falta de tempo.
+  Dos requisitos que foram solicitados consegui cumprir apenas 2, que era a captação das informações da API e a apresentação dos dados em uma listagem. Infelizmente não consegui fazer o resto dos requisitos devido a falta de tempo, tentei fazer a autenticação de usuário para a identificação do mesmo na tabela, mas não foi possível fazer de forma que ficasse completo até o dia da entrega da task.
   
   Fiquei diversas horas pesquisando formas de resolver os problemas descritos, mesmo que não passe no teste, agradeço a oportunidade pois tive uma evolução muito grande nesses 7 dias em relação a conhecimento com APIS. Pretendo em algum momento finalizar e fazer todo o resto dos requisitos finais, para ter mais conhecimento.
 
