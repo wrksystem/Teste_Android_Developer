@@ -1,9 +1,9 @@
-# Teste WS Work/Retrofit/RoomDatabase/MVVVM Architecture
+# Teste WS Work/Retrofit/RoomDatabase/MVVM Architecture
 
 # REQUISITOS
 
 <div>
-Criar um app que carregue dados de um json, vinda da api descrita, contendo uma listagem dos carros que vem do Json. O app deve permitir ao usuário selecionar um carro e apertar um botão "Eu Quero", esse registra de compra (lead) é salvo no banco sqlite interno com os dados do usuario que decidiu comprar, seja telefone, email ou etc.
+Criar um app que carregue dados de um json, vinda da api descrita, contendo uma listagem dos carros que vem do Json. O app deve permitir ao usuário selecionar um carro e apertar um botão "Eu Quero", esse efetua um registro de compra (lead) e é salvo no banco sqlite interno com os dados do usuario que decidiu comprar, seja telefone, email ou etc.
   
   Deve haver uma rotina que de tempo em tempos fará post dos leads em uma api.
   
@@ -83,7 +83,7 @@ Mas na tabela de id:8, essa sequência foi alterada, com o id indo para o final 
 ```
 
 <div>
-E isso impediu o GsonConvertFactory de interpretar e buildar o JSON de forma correta. Troquei minha MutableDataListOf por arrayListOf, e criei uma função interceptor com passando o .client e serializei todos os campos do model com @Serialized, para que independente de como as informações chegassem, fosse possível eles serem lidas. Após essa alteração, os nomes dos carros começaram a aparecer no recyclerView.
+E isso impediu o GsonConvertFactory de interpretar e buildar o JSON de forma correta. Troquei minha MutableDataListOf por arrayListOf, e criei uma função interceptor passando o .client e serializei todos os campos do model com @Serialized, para que independente de como as informações chegassem, fosse possível elas serem lidas. Após essa alteração, os nomes dos carros começaram a aparecer no recyclerView.
 </div>
 
 ##
@@ -95,7 +95,7 @@ E isso impediu o GsonConvertFactory de interpretar e buildar o JSON de forma cor
   
   Dos requisitos que foram solicitados consegui cumprir apenas 2, que era a captação das informações da API e a apresentação dos dados em uma listagem. Infelizmente não consegui fazer o resto dos requisitos devido a falta de tempo, tentei fazer a autenticação de usuário para a identificação do mesmo na tabela, mas não foi possível fazer de forma que ficasse completo até o dia da entrega da task.
   
-  Fiquei diversas horas pesquisando formas de resolver os problemas descritos, mesmo que não passe no teste, agradeço a oportunidade pois tive uma evolução muito grande nesses 7 dias em relação a conhecimento com APIS. Pretendo em algum momento finalizar e fazer todo o resto dos requisitos finais, para ter mais conhecimento.
+  Fiquei diversas horas pesquisando formas de resolver os problemas descritos, mesmo que não passe no teste, agradeço a oportunidade pois tive uma evolução muito grande nesses 7 dias em relação a conhecimento com APIS. Pretendo em algum momento finalizar e fazer todo o resto dos requisitos finais, para adquirir mais conhecimento.
 
 </div>
 
