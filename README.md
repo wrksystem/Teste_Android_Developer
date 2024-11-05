@@ -21,22 +21,8 @@ Iniciei desenvolvendo as telas de login e cadastro de usuário.
 
 ##
 
-# LOGIN
-![Imagem do WhatsApp de 2022-10-20 à(s) 00 01 02](https://user-images.githubusercontent.com/51803873/197648596-7eac1057-b112-4e0c-8d10-5c370d6ac6ca.jpg)
+![image](https://github.com/user-attachments/assets/207423cd-16b9-4668-ba73-a0870815f1d1)
 
-# CADASTRO
-![Imagem do WhatsApp de 2022-10-20 à(s) 00 01 13](https://user-images.githubusercontent.com/51803873/197648690-41f72c71-9b30-4a80-a81d-b227d8626587.jpg)
-
-##
-
-<div>
-  Fiz uma tela com recyclerview para listar os carros com um itemcar de layout.
-</div>
-
-##
-
-# RECYCLERVIEW
-![Imagem do WhatsApp de 2022-10-24 à(s) 20 15 09](https://user-images.githubusercontent.com/51803873/197648849-f5d01876-15e6-45c0-935b-024e00001b1a.jpg)
 
 ##
 
